@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+.register-form{
+    width: 380px;
+    height: 450px;
+    position: absolute;
+    right: -530px;
+    padding: 5px;
+    margin: 10% auto;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px 10px lightgray, 10px 10px 10px 10px lightgrey;
+    border-radius: 30px;
+}
+.header{
+    text-align: center;
+    text-shadow: 10px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    color: red;
+    opacity: .6;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+.register{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 15px;
+    margin-left: 10%;
+    opacity: .8;
+}
+input{
+    width: 80%;
+    margin: 2% auto;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+button{
+    width: 80%;
+    margin: 5% auto;
+    font-size: 15px;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    color: blue ;
+    background-color: lightgray;
+    margin: none;
+    border: none;
+    border-radius: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
