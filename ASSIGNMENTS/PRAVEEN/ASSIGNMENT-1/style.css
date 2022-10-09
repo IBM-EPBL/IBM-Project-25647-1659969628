@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(255, 94, 0);
+}
+.form-container{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(23, 26, 23);
+    padding-left: 100px;
+    background-color: rgb(251, 255, 0);
+}
+.head{
+    text-align: center;
+}
+.finput{
+    border-color: rgb(0, 15, 128);
+}
