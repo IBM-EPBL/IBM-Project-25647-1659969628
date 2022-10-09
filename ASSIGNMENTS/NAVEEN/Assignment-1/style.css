@@ -1,0 +1,13 @@
+.form-container{
+    margin: auto;
+    width: 50%;
+    border: 3px solid;
+    padding-left: 100px;
+    background-color: red;
+}
+.head{
+    text-align: center;
+}
+.finput{
+    border-color: green;
+}
